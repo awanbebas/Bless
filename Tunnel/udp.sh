@@ -1,7 +1,7 @@
 #!/bin/bash
 #Script UdpCustom 2023
-#Script By AndyYuda
-#https://t.me/AndyYuda
+#Script By kanghoryTUNNELING
+#https://t.me/kanghory
 cd
 rm -rf /root/udp
 mkdir -p /root/udp
@@ -11,7 +11,7 @@ sleep 4
 echo " Proses Download Script UdpCustom........"
 sleep 4
 clear
-echo " Cecking Tool UdpCustom By AndyYuda......."
+echo " Cecking Tool UdpCustom By kanghoryTUNNELING......."
 sleep 4
 clear
 echo " Succes Cecking Tool..........."
@@ -29,7 +29,7 @@ sleep 4
 echo " Proses Download Script Config Default........"
 sleep 4
 clear
-echo " Cecking Config Default By AndyYuda......."
+echo " Cecking Config Default By kanghoryTUNNELING......."
 sleep 4
 clear
 echo " Succes Cecking Config Default Tool..........."
@@ -44,7 +44,7 @@ chmod 644 /root/udp/config.json
 if [ -z "$1" ]; then
 cat <<EOF > /etc/systemd/system/udp-custom.service
 [Unit]
-Description=UDP Custom by AndyYuda
+Description=UDP Custom by kanghoryTUNNELING
 
 [Service]
 User=root
@@ -60,7 +60,7 @@ EOF
 else
 cat <<EOF > /etc/systemd/system/udp-custom.service
 [Unit]
-Description=UDP Custom by AndyYuda
+Description=UDP Custom by kanghoryTUNNELING
 
 [Service]
 User=root
